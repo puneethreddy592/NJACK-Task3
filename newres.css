@@ -1,0 +1,502 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(38, 51, 93);
+    color: #ffffff;
+}
+
+.curved-background {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 124, 84);
+    clip-path: polygon(0 0, 900% 0, 20% 0%, 0 120%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    background-color: rgb(39, 50, 93);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand h1 {
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    color: #f9f6f6;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 2%;
+}
+
+.login a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.join-us {
+    background-color: #af4ca8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-box {
+    width: 60%;
+}
+
+.info-box p {
+    margin: 0;
+}
+
+.info-box h2 {
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #a84caf;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.image-box {
+    width: 40%;
+}
+
+.maincontent1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    font-size: 18px;
+}
+
+.box p {
+    font-size: 14px;
+    color: #555;
+}
+
+.maincontent2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.stats-box {
+    width: 23%;
+    text-align: center;
+    padding: 20px;
+}
+
+.number {
+    color: purple;
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.maincontent3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-content {
+    width: 60%;
+}
+
+.text-content h3 {
+    font-size: 24px;
+}
+
+.text-content p {
+    font-size: 16px;
+}
+
+.learn-more {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image-content {
+    width: 35%;
+}
+
+.maincontent4 {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.courses-link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.maincontent4 h3 {
+    font-size: 24px;
+}
+
+.maincontent4 p {
+    font-size: 16px;
+}
+
+.card {
+    width: 180px;
+    border: 1px solid #333;
+    margin-left: 10px;
+    background-color: #fff;
+    color: #333;
+    flex: 1;
+}
+
+.iconbox {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.iconbox i {
+    width: 30px;
+    height: 30px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-us {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: darkblue;
+    border-radius: 20%;
+}
+
+.rating-number {
+    font-size: 16px;
+}
+
+.certified-teacher {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sales-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sales-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.price-info {
+    margin-top: 10px;
+}
+
+.price,
+.discount-price {
+    color: #888;
+}
+
+.learn-more-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: rgb(201, 25, 25);
+    border: #555;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 22%;
+    margin-left: 20px;
+}
+
+.arrow-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.welcome {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lifetime-access {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#mainc4 {
+    width: 100%;
+}
+
+.maincontent5 {
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.testimonials {
+    font-size: 24px;
+    color: purple;
+}
+
+.experts {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.problems {
+    font-size: 16px;
+}
+
+.maincontent6 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.expert {
+    text-align: center;
+}
+
+.expert img {
+    width: 200px;
+    height: 200px;
+}
+
+.expert p {
+    color: white;
+    font-weight: bold;
+}
+
+.maincontent7 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.newsletter {
+    font-size: 24px;
+    color: purple;
+}
+
+.packages {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.problems {
+    font-size: 16px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-form input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 0px;
+}
+
+.subscribe-btn {
+    background-color: #c224c8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+}
+
+.footer-item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-item h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-item p {
+    margin: 10px 0;
+}
+
+#ftl {
+    width: 25%;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .maincontent .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .maincontent2 {
+        flex-direction: column;
+    }
+
+    .stats-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .maincontent3 {
+        flex-direction: column-reverse;
+    }
+
+    .image-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .maincontent4 .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .maincontent5 .expert {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .maincontent6 {
+        flex-direction: column;
+    }
+
+    .maincontent7 {
+        padding: 20px 0;
+    }
+
+    .footer-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
